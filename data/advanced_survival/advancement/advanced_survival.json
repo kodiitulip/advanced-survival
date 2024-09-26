@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": "Advanced Survival",
+		"description": "",
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "TisKodie"
+				}
+			}
+		},
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "global:tiskodie",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
