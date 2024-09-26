@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["CCC", " S ", " S "],
+	"key": {
+		"C": {
+			"item": "minecraft:copper_ingot"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"id": "iron_pickaxe",
+		"components": {
+			"item_name": "\"Copper Pickaxe\"",
+			"max_damage": 192,
+			"attribute_modifiers": {
+				"modifiers": [
+					{
+						"type": "minecraft:player.mining_efficiency",
+						"operation": "add_value",
+						"amount": 3,
+						"id": "advanced_survival:copper_mining_efficiency",
+						"slot": "hand"
+					}
+				]
+			},
+			"custom_model_data": 240601
+		}
+	}
+}
